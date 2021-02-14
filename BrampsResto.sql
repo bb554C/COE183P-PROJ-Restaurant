@@ -247,3 +247,56 @@ SET ANSI_NULLS ON
 		FROM Bramps.OrderMenu
 		WHERE CustomerID LIKE @IDCustomer
 	END
+
+--=========================================================================================
+--=========================================================================================
+--=========================================================================================
+--=================================== ADDITIONAL PROCEDURES ===============================
+SET ANSI_NULLS ON
+	GO
+	SET QUOTED_IDENTIFIER ON
+	GO
+	CREATE PROCEDURE [dbo].[GetItems]
+	AS
+	BEGIN
+		SELECT MenuItemID, MenuItemName, MenuItemDescription
+		FROM Bramps.MenuItem
+	END
+--=========================================================================================
+SET ANSI_NULLS ON
+	GO
+	SET QUOTED_IDENTIFIER ON
+	GO
+	CREATE PROCEDURE [dbo].[GetItemsByCategory]
+		@IDMenuType INT
+	AS
+	BEGIN
+		SELECT MenuItemID, MenuItemName, MenuItemDescription
+		FROM Bramps.MenuItem WHERE MenuTypeID = @IDMenuType
+	END
+--=========================================================================================
+SET ANSI_NULLS ON
+	GO
+	SET QUOTED_IDENTIFIER ON
+	GO
+	CREATE PROCEDURE [dbo].[CountAllItems]
+	AS
+	BEGIN
+		SELECT COUNT(*) FROM Bramps.MenuItem
+	END
+--=========================================================================================
+SET ANSI_NULLS ON
+	GO
+	SET QUOTED_IDENTIFIER ON
+	GO
+	CREATE PROCEDURE [dbo].[CountAllItemsByCategory]
+	@IDMenuType INT
+	AS
+	BEGIN
+		SELECT COUNT(*) FROM Bramps.MenuItem WHERE MenuTypeID = @IDMenuType 
+	END
+--=========================================================================================
+
+--=========================================================================================
+--=========================================================================================
+--=========================================================================================
