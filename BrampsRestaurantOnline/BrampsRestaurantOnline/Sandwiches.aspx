@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" MasterPageFile="~/Main.Master" Language="C#" AutoEventWireup="true" CodeBehind="Sandwiches.aspx.cs" Inherits="BrampsRestaurantOnline.Sandwiches" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Sandwiches.aspx.cs" Inherits="BrampsRestaurantOnline.Sandwiches" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainBody" runat="server">

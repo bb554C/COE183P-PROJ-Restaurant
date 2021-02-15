@@ -9,7 +9,7 @@ using BrampsRestaurantOnline.Classes;
 
 namespace BrampsRestaurantOnline
 {
-    public partial class Rice : System.Web.UI.Page
+    public partial class Appetizers : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -17,9 +17,9 @@ namespace BrampsRestaurantOnline
         }
         private void LoadPage()
         {
-            DataSet tempIL = ItemClass.GetItemListByCat(13);
-            RepeaterRice.DataSource = tempIL;
-            RepeaterRice.DataBind();
+            DataSet tempIL = ItemClass.GetItemListByCat(5);
+            RepeaterAppetizers.DataSource = tempIL;
+            RepeaterAppetizers.DataBind();
         }
     }
 }

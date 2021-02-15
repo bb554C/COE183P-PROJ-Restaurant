@@ -74,9 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Appetizers.aspx" />
+    <Content Include="Beverages.aspx" />
     <Content Include="Breakfast.aspx" />
     <Content Include="Congee.aspx" />
     <Content Include="CSS\Site.css" />
+    <Content Include="Dessert.aspx" />
     <Content Include="Favorites.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Grilled.aspx" />
@@ -117,8 +120,11 @@
     <Content Include="js\ShopLoad.js" />
     <Content Include="Pasta.aspx" />
     <Content Include="Rice.aspx" />
+    <Content Include="RiceMeal.aspx" />
     <Content Include="Sandwiches.aspx" />
     <Content Include="ShopTemplate.aspx" />
+    <Content Include="Sizzling.aspx" />
+    <Content Include="Teriyaki.aspx" />
     <Content Include="Veggies.aspx" />
     <Content Include="Web.config" />
     <Content Include="PansitNoodles.aspx" />
@@ -130,6 +136,20 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Appetizers.aspx.cs">
+      <DependentUpon>Appetizers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Appetizers.aspx.designer.cs">
+      <DependentUpon>Appetizers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Beverages.aspx.cs">
+      <DependentUpon>Beverages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beverages.aspx.designer.cs">
+      <DependentUpon>Beverages.aspx</DependentUpon>
     </Compile>
     <Compile Include="Breakfast.aspx.cs">
       <DependentUpon>Breakfast.aspx</DependentUpon>
@@ -149,6 +169,13 @@
     </Compile>
     <Compile Include="Congee.aspx.designer.cs">
       <DependentUpon>Congee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dessert.aspx.cs">
+      <DependentUpon>Dessert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dessert.aspx.designer.cs">
+      <DependentUpon>Dessert.aspx</DependentUpon>
     </Compile>
     <Compile Include="Favorites.aspx.cs">
       <DependentUpon>Favorites.aspx</DependentUpon>
@@ -196,6 +223,13 @@
     <Compile Include="Rice.aspx.designer.cs">
       <DependentUpon>Rice.aspx</DependentUpon>
     </Compile>
+    <Compile Include="RiceMeal.aspx.cs">
+      <DependentUpon>RiceMeal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RiceMeal.aspx.designer.cs">
+      <DependentUpon>RiceMeal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Sandwiches.aspx.cs">
       <DependentUpon>Sandwiches.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -209,6 +243,20 @@
     </Compile>
     <Compile Include="ShopTemplate.aspx.designer.cs">
       <DependentUpon>ShopTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sizzling.aspx.cs">
+      <DependentUpon>Sizzling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sizzling.aspx.designer.cs">
+      <DependentUpon>Sizzling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teriyaki.aspx.cs">
+      <DependentUpon>Teriyaki.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teriyaki.aspx.designer.cs">
+      <DependentUpon>Teriyaki.aspx</DependentUpon>
     </Compile>
     <Compile Include="Veggies.aspx.cs">
       <DependentUpon>Veggies.aspx</DependentUpon>
