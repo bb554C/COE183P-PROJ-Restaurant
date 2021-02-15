@@ -13,6 +13,9 @@ function intAmountMouseDown(funcID) {
 function intAmountMouseUp(funcID) {
     num = parseInt(document.getElementById(funcID).value);
     num = num + 1;
+    if (num == NaN) {
+        num = 1
+    }
     document.getElementById(funcID).value = num;
 }
 
