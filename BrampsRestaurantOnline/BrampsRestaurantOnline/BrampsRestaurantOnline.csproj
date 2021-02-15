@@ -78,6 +78,7 @@
     <Content Include="CSS\Site.css" />
     <Content Include="Favorites.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Grilled.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Image\BEEF BROCCOLI.png" />
     <Content Include="Image\BEEF TERIYAKI.png" />
@@ -147,6 +148,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Grilled.aspx.cs">
+      <DependentUpon>Grilled.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grilled.aspx.designer.cs">
+      <DependentUpon>Grilled.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
