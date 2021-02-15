@@ -4,8 +4,6 @@ CREATE SCHEMA Bramps
 	CREATE TABLE Bramps.Customer
 	(
 		CustomerID INT IDENTITY (1,1) NOT NULL PRIMARY KEY,
-		UserName VARCHAR(200) NOT NULL UNIQUE,
-		Password VARCHAR(200) NOT NULL,
 		CustomerName VARCHAR(200) NOT NULL UNIQUE,
 		ContactNumber NVARCHAR(25) NOT NULL,
 		Address VARCHAR(200) NOT NULL,
@@ -119,16 +117,14 @@ SET ANSI_NULLS ON
 	GO
 	CREATE PROCEDURE [dbo].[AddNewCustomer]
 		@IDCustomer INT,
-		@Uname VARCHAR(100),
-		@PWord VARCHAR(100),
 		@NameCustomer VARCHAR (200),
 		@Contact NVARCHAR (50),
 		@Location VARCHAR (200)
 	AS
 	BEGIN
 		SET NOCOUNT ON;
-			INSERT INTO Bramps.Customer(CustomerID, Username, Password, CustomerName, ContactNumber, Address)
-			VALUES (@IDCustomer, @Uname, @PWord, @NameCustomer, @Contact, @Location)
+			INSERT INTO Bramps.Customer(CustomerID, CustomerName, ContactNumber, Address)
+			VALUES (@IDCustomer, @NameCustomer, @Contact, @Location)
 	END
 --=========================================================================================
 SET ANSI_NULLS ON
@@ -150,7 +146,7 @@ SET ANSI_NULLS ON
 		@IDCustomer INT
 	AS
 	BEGIN
-		SELECT CustomerID, Username, Password, CustomerName, ContactNumber, Address
+		SELECT CustomerID, CustomerName, ContactNumber, Address
 		FROM Bramps.Customer  WHERE CustomerID = @IDCustomer
 	END
 --=========================================================================================
@@ -161,7 +157,7 @@ SET ANSI_NULLS ON
 	CREATE PROCEDURE [dbo].[GetCustomerList]
 	AS
 	BEGIN
-		SELECT CustomerID, Username, Password, CustomerName, ContactNumber, Address
+		SELECT CustomerID, CustomerName, ContactNumber, Address
 		FROM Bramps.Customer
 	END
 --=========================================================================================
@@ -174,7 +170,7 @@ SET ANSI_NULLS ON
 	AS
 	BEGIN
 		SET NOCOUNT ON;
-		SELECT CustomerID, Username, Password, CustomerName, ContactNumber, Address
+		SELECT CustomerID, CustomerName, ContactNumber, Address
 		FROM Bramps.Customer
 		WHERE CustomerName LIKE @NameCustomer
 	END
@@ -300,3 +296,5 @@ SET ANSI_NULLS ON
 --=========================================================================================
 --=========================================================================================
 --=========================================================================================
+
+
