@@ -42,7 +42,6 @@ C:\Users\user\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\Br
 C:\Users\user\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\bin\EntityFramework.xml
 C:\Users\user\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\bin\EntityFramework.SqlServer.xml
 C:\Users\user\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.csprojAssemblyReference.cache
-C:\Users\BAIRD\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.csprojAssemblyReference.cache
 C:\Users\BAIRD\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.csproj.CoreCompileInputs.cache
 C:\Users\BAIRD\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.dll
 C:\Users\BAIRD\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.pdb
