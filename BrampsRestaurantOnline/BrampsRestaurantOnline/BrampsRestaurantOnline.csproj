@@ -75,7 +75,15 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="CSS\Site.css" />
-    <Content Include="FoodDescription.aspx" />
+    <Content Include="Image\BurgerCheese.jpg" />
+    <Content Include="Image\BurgerNoCheese.png" />
+    <Content Include="Image\ClubHouse.jpg" />
+    <Content Include="Image\Ham.jpg" />
+    <Content Include="Image\HamCheese.jpg" />
+    <Content Include="Image\Hotdog.jpg" />
+    <Content Include="Image\Tuna.jpg" />
+    <Content Include="Image\TunaCheese.jpg" />
+    <Content Include="Sandwiches.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Image\BEEF BROCCOLI.png" />
@@ -122,12 +130,12 @@
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
-    <Compile Include="FoodDescription.aspx.cs">
-      <DependentUpon>FoodDescription.aspx</DependentUpon>
+    <Compile Include="Sandwiches.aspx.cs">
+      <DependentUpon>Sandwiches.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FoodDescription.aspx.designer.cs">
-      <DependentUpon>FoodDescription.aspx</DependentUpon>
+    <Compile Include="Sandwiches.aspx.designer.cs">
+      <DependentUpon>Sandwiches.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
