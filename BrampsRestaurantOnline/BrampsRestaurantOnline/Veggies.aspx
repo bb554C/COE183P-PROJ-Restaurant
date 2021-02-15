@@ -1,8 +1,8 @@
-﻿<%@ Page Title="Favorites" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Favorites.aspx.cs" Inherits="BrampsRestaurantOnline.Favorites" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Veggies.aspx.cs" Inherits="BrampsRestaurantOnline.Veggies" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainBody" runat="server">
-    <asp:Panel ID="FavoritesPanel" CssClass="justify-center padding-left" runat="server">
+    <asp:Panel ID="GrilledPanel" CssClass="justify-center padding-left" runat="server">
         <div class="row row-cols-4 margin-2 justify-center">
             <asp:Repeater ID="RepeaterBreakfast" runat="server">
                 <ItemTemplate>

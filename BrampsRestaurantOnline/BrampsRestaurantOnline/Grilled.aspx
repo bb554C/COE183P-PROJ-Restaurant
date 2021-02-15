@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="Grilled.aspx.cs" Inherits="BrampsRestaurantOnline.Grilled" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Grilled.aspx.cs" Inherits="BrampsRestaurantOnline.Grilled" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainBody" runat="server">
-    <asp:Panel ID="BreakfastPanel" CssClass="justify-center padding-left" runat="server">
+    <asp:Panel ID="GrilledPanel" CssClass="justify-center padding-left" runat="server">
         <div class="row row-cols-4 margin-2 justify-center">
             <asp:Repeater ID="RepeaterBreakfast" runat="server">
                 <ItemTemplate>

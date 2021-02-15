@@ -15,13 +15,13 @@ namespace BrampsRestaurantOnline
     {
 
         /// <summary>
-        /// BreakfastPanel control.
+        /// GrilledPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel BreakfastPanel;
+        protected global::System.Web.UI.WebControls.Panel GrilledPanel;
 
         /// <summary>
         /// RepeaterBreakfast control.

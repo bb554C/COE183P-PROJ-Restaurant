@@ -11,17 +11,17 @@ namespace BrampsRestaurantOnline
 {
 
 
-    public partial class Favorites
+    public partial class Veggies
     {
 
         /// <summary>
-        /// FavoritesPanel control.
+        /// GrilledPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel FavoritesPanel;
+        protected global::System.Web.UI.WebControls.Panel GrilledPanel;
 
         /// <summary>
         /// RepeaterBreakfast control.
@@ -30,6 +30,6 @@ namespace BrampsRestaurantOnline
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater RepeaterBreakfast;
+        protected global::System.Web.UI.WebControls.Repeater RepeaterVeggies;
     }
 }
