@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Breakfast.aspx" />
     <Content Include="CSS\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
@@ -112,6 +113,8 @@
     <Content Include="js\mouseClicks.js" />
     <Content Include="js\ShopLoad.js" />
     <Content Include="Pasta.aspx" />
+    <Content Include="Sandwiches.aspx" />
+    <Content Include="ShopTemplate.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -122,8 +125,17 @@
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Breakfast.aspx.cs">
+      <DependentUpon>Breakfast.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Breakfast.aspx.designer.cs">
+      <DependentUpon>Breakfast.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Classes\CustomerClass.cs" />
     <Compile Include="Classes\FoodClass.cs" />
+    <Compile Include="Classes\ItemClass.cs" />
+    <Compile Include="Classes\ItemList.cs" />
     <Compile Include="Classes\SQLConnection.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -150,6 +162,20 @@
       <DependentUpon>Pasta.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sandwiches.aspx.cs">
+      <DependentUpon>Sandwiches.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sandwiches.aspx.designer.cs">
+      <DependentUpon>Sandwiches.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShopTemplate.aspx.cs">
+      <DependentUpon>ShopTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShopTemplate.aspx.designer.cs">
+      <DependentUpon>ShopTemplate.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />

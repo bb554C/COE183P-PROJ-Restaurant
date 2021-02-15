@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Data.Sql;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 
 namespace BrampsRestaurantOnline.Classes
 {
@@ -28,7 +24,7 @@ namespace BrampsRestaurantOnline.Classes
                     command.ExecuteNonQuery();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
             }
@@ -52,12 +48,12 @@ namespace BrampsRestaurantOnline.Classes
                     command.ExecuteNonQuery();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-             
+
             }
-            SQLConnection.CloseSQLConnect(SQLConn); 
-            
+            SQLConnection.CloseSQLConnect(SQLConn);
+
         }
         public static void DeleteOrder(int OrderID)
         {
@@ -72,9 +68,9 @@ namespace BrampsRestaurantOnline.Classes
                     command.ExecuteNonQuery();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-              
+
             }
             SQLConnection.CloseSQLConnect(SQLconn);
         }
