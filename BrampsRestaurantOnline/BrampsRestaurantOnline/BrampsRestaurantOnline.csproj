@@ -76,6 +76,7 @@
     <Content Include="About.aspx" />
     <Content Include="Breakfast.aspx" />
     <Content Include="CSS\Site.css" />
+    <Content Include="Favorites.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Image\BEEF BROCCOLI.png" />
@@ -137,6 +138,13 @@
     <Compile Include="Classes\ItemClass.cs" />
     <Compile Include="Classes\ItemList.cs" />
     <Compile Include="Classes\SQLConnection.cs" />
+    <Compile Include="Favorites.aspx.cs">
+      <DependentUpon>Favorites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Favorites.aspx.designer.cs">
+      <DependentUpon>Favorites.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
