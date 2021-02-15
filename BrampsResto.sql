@@ -255,7 +255,7 @@ SET ANSI_NULLS ON
 	CREATE PROCEDURE [dbo].[GetItems]
 	AS
 	BEGIN
-		SELECT MenuItemID, MenuItemName, MenuItemDescription
+		SELECT MenuItemID, MenuItemName, MenuItemDescription, MenuItemPrice
 		FROM Bramps.MenuItem
 	END
 --=========================================================================================
@@ -267,7 +267,7 @@ SET ANSI_NULLS ON
 		@IDMenuType INT
 	AS
 	BEGIN
-		SELECT MenuItemID, MenuItemName, MenuItemDescription
+		SELECT MenuItemID, MenuItemName, MenuItemDescription, MenuItemPrice
 		FROM Bramps.MenuItem WHERE MenuTypeID = @IDMenuType
 	END
 --=========================================================================================
