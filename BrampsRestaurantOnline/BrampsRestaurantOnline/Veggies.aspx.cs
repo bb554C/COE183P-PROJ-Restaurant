@@ -17,7 +17,7 @@ namespace BrampsRestaurantOnline
         }
         private void LoadPage()
         {
-            DataSet tempIL = ItemClass.GetItemListByCat(8);
+            DataSet tempIL = ItemClass.GetItemListByCat(9);
             RepeaterVeggies.DataSource = tempIL;
             RepeaterVeggies.DataBind();
         }

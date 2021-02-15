@@ -24,7 +24,7 @@ namespace BrampsRestaurantOnline
         protected global::System.Web.UI.WebControls.Panel GrilledPanel;
 
         /// <summary>
-        /// RepeaterBreakfast control.
+        /// RepeaterGrilled control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.

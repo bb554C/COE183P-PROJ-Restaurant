@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainBody" runat="server">
     <asp:Panel ID="FavoritesPanel" CssClass="justify-center padding-left" runat="server">
         <div class="row row-cols-4 margin-2 justify-center">
-            <asp:Repeater ID="RepeaterBreakfast" runat="server">
+            <asp:Repeater ID="RepeaterFavorites" runat="server">
                 <ItemTemplate>
                     <div id="Item<%#:Eval("MenuItemID")%>" class="card col w-20">
                         <img id="Image<%#:Eval("MenuItemID")%>" class="card-img-top justify-center" src='Image/<%#:Eval("MenuItemName")%>.png'/>

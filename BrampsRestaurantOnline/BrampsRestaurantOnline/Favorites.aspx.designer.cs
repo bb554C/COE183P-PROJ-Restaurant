@@ -24,7 +24,7 @@ namespace BrampsRestaurantOnline
         protected global::System.Web.UI.WebControls.Panel FavoritesPanel;
 
         /// <summary>
-        /// RepeaterBreakfast control.
+        /// RepeaterFavorites control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.

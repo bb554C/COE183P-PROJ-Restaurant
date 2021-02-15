@@ -24,7 +24,7 @@ namespace BrampsRestaurantOnline
         protected global::System.Web.UI.WebControls.Panel PansitNoodlesPanel;
 
         /// <summary>
-        /// RepeaterBreakfast control.
+        /// RepeaterPansitNoodles control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.

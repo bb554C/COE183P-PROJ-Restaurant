@@ -17,10 +17,9 @@ namespace BrampsRestaurantOnline
         }
         private void LoadPage()
         {
-            DataSet tempIL = ItemClass.GetItemListByCat(7);
+            DataSet tempIL = ItemClass.GetItemListByCat(11);
             RepeaterCongee.DataSource = tempIL;
             RepeaterCongee.DataBind();
         }
     }
-}
 }
