@@ -18,8 +18,8 @@ namespace BrampsRestaurantOnline
         private void LoadPage()
         {
             DataSet tempIL = ItemClass.GetItemListByCat(8);
-            RepeaterBreakfast.DataSource = tempIL;
-            RepeaterBreakfast.DataBind();
+            RepeaterGrilled.DataSource = tempIL;
+            RepeaterGrilled.DataBind();
         }
     }
 }
