@@ -116,6 +116,7 @@
     <Content Include="js\mouseClicks.js" />
     <Content Include="js\ShopLoad.js" />
     <Content Include="Pasta.aspx" />
+    <Content Include="Rice.aspx" />
     <Content Include="Sandwiches.aspx" />
     <Content Include="ShopTemplate.aspx" />
     <Content Include="Veggies.aspx" />
@@ -188,6 +189,13 @@
       <DependentUpon>Pasta.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rice.aspx.cs">
+      <DependentUpon>Rice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rice.aspx.designer.cs">
+      <DependentUpon>Rice.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Sandwiches.aspx.cs">
       <DependentUpon>Sandwiches.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
