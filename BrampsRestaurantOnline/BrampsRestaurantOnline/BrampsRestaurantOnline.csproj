@@ -75,6 +75,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Breakfast.aspx" />
+    <Content Include="Congee.aspx" />
     <Content Include="CSS\Site.css" />
     <Content Include="Favorites.aspx" />
     <Content Include="Global.asax" />
@@ -141,6 +142,13 @@
     <Compile Include="Classes\FoodClass.cs" />
     <Compile Include="Classes\ItemClass.cs" />
     <Compile Include="Classes\SQLConnection.cs" />
+    <Compile Include="Congee.aspx.cs">
+      <DependentUpon>Congee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Congee.aspx.designer.cs">
+      <DependentUpon>Congee.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Favorites.aspx.cs">
       <DependentUpon>Favorites.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
