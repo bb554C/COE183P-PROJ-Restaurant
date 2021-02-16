@@ -36,12 +36,12 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SHOP</a>
                                 <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Favorites.aspx">Favorites</a></li>
                                     <li><a class="dropdown-item" href="Appetizers.aspx">Appetizers</a></li>
                                     <li><a class="dropdown-item" href="Beverages.aspx">Beverages</a></li>
                                     <li><a class="dropdown-item" href="Breakfast.aspx">Breakfast</a></li>
                                     <li><a class="dropdown-item" href="Congee.aspx">Congee</a></li>
                                     <li><a class="dropdown-item" href="Dessert.aspx">Dessert</a></li>
-                                    <li><a class="dropdown-item" href="Favorites.aspx">Favorites</a></li>
                                     <li><a class="dropdown-item" href="Grilled.aspx">Grilled</a></li>
                                     <li><a class="dropdown-item" href="PansitNoodles.aspx">Pansit Noodles</a></li>
                                     <li><a class="dropdown-item" href="Pasta.aspx">Pasta</a></li>
