@@ -1,5 +1,5 @@
-﻿using System;
-using System.Data.Entity;
+﻿using BrampsRestaurantOnline.Classes;
+using System;
 
 namespace BrampsRestaurantOnline
 {
@@ -7,6 +7,7 @@ namespace BrampsRestaurantOnline
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+
         }
     }
 }

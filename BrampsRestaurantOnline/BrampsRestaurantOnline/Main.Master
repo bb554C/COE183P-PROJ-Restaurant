@@ -56,7 +56,7 @@
                     </ul>
                     <ul class="navbar-nav align-middle ">
                         <li class="nav-item align-middle">
-                            <a class="nav-link active" href="#">SHOPPING CART</a>
+                            <a class="nav-link active" href="ShoppingCart.aspx">SHOPPING CART</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav align-middle ">

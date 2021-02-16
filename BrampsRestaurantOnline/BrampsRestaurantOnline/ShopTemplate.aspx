@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="ShopTemplate.aspx.cs" Inherits="BrampsRestaurantOnline.ShopeTemplate" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="ShopTemplate.aspx.cs" Inherits="BrampsRestaurantOnline.ShopeTemplate" EnableEventValidation="True" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainBody" runat="server">
@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <div  class="justify-center w-75">
-                            <button type="button" class="btn btn-warning button-add-cart" onclick="createRowFunction()">Add to Cart</button>
+                            <button type="button" class="btn btn-warning button-add-cart" onclick="addNewItemCookie(textBox<%#:Eval("MenuItemID")%>,)">Add to Cart</button>
                         </div>
                     </div>
                 </ItemTemplate>
