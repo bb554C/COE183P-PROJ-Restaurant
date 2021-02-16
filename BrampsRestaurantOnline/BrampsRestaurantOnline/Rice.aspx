@@ -12,7 +12,7 @@
                         <p class="card-text text-autosize"><%#:Eval("MenuItemDescription")%></p>
                         <div class="justify-center w-75">
                             <div class="btn-group btn-group" role="group" aria-label="Basic example">
-                                <button type="button" class="btn btn-dark no-padding" onclick="intAmountMouseUp('textBox<%#:Eval("MenuItemID")%>');">
+                                <button type="button" class="btn btn-dark no-padding" onclick="intAmountMouseDown('textBox<%#:Eval("MenuItemID")%>');">
                                     <img class="button-arrow" src="Image/downArrow.png"/>
                                 </button>
                                 <input type="text" id="textBox<%#:Eval("MenuItemID")%>" class="text-box-center" value="0" />
