@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 
 namespace BrampsRestaurantOnline.Classes
 {
@@ -17,9 +14,9 @@ namespace BrampsRestaurantOnline.Classes
                 string connectionString = ConfigurationManager.ConnectionStrings["BrampsResto"]?.ConnectionString;
                 connection = new SqlConnection(connectionString);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-             
+
             }
             return connection;
         }

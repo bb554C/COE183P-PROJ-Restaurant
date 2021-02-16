@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using BrampsRestaurantOnline.Classes;
+using System;
 using System.Data;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
-using BrampsRestaurantOnline.Classes;
 
 namespace BrampsRestaurantOnline
 {
@@ -21,6 +17,15 @@ namespace BrampsRestaurantOnline
             DataSet tempIL = ItemClass.GetItemListByCat(1);
             RepeaterBreakfast.DataSource = tempIL;
             RepeaterBreakfast.DataBind();
+        }
+
+        protected void Button_Click(object sender, EventArgs e)
+        {
+            RepeaterItem item = (sender as Button).NamingContainer as RepeaterItem;
+            string itemName = (item.FindControl("ItemName") as HiddenField).Value;
+            decimal itemPrice = Convert.ToDecimal((item.FindControl("ItemPrice") as HiddenField).Value);
+            int itemQuantity = Convert.ToInt32((item.FindControl("TextBox") as TextBox).Text);
+            OrderTable.addNewData(itemName, itemQuantity, itemPrice);
         }
     }
 }
