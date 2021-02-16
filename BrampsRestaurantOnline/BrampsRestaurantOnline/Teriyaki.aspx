@@ -8,6 +8,7 @@
                 <ItemTemplate>
                     <div id="Item<%#:Eval("MenuItemID")%>" class="card col w-20">
                         <img id="Image<%#:Eval("MenuItemID")%>" class="card-img-top justify-center" src='Image/<%#:Eval("MenuItemName")%>.png'/>
+                        <h5 class="card-title"><%#:Eval("MenuItemName") %></h5>
                         <p class="card-text text-autosize">Price: <%#:Eval("MenuItemPrice") %></p>
                         <p class="card-text text-autosize"><%#:Eval("MenuItemDescription")%></p>
                         <div class="justify-center w-75">

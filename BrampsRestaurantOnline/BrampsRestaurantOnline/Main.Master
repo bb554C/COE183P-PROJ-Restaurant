@@ -76,7 +76,7 @@
             </asp:ContentPlaceHolder>
         </div>
         <div>
-            <asp:ContentPlaceHolder ID="SideBar" runat="server" >
+            <asp:ContentPlaceHolder ID="Footer" runat="server" >
             </asp:ContentPlaceHolder>
         </div>
         <hr />
