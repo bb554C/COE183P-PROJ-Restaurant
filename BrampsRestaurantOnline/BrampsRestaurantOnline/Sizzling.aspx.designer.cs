@@ -11,25 +11,25 @@ namespace BrampsRestaurantOnline
 {
 
 
-    public partial class Sandwiches
+    public partial class Sizzling
     {
 
         /// <summary>
-        /// SandwichesPanel control.
+        /// SizzlingPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel SandwichesPanel;
+        protected global::System.Web.UI.WebControls.Panel SizzlingPanel;
 
         /// <summary>
-        /// RepeaterSandwiches control.
+        /// RepeaterSizzling control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater RepeaterSandwiches;
+        protected global::System.Web.UI.WebControls.Repeater RepeaterSizzling;
     }
 }

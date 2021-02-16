@@ -11,25 +11,25 @@ namespace BrampsRestaurantOnline
 {
 
 
-    public partial class Sandwiches
+    public partial class RiceMeal
     {
 
         /// <summary>
-        /// SandwichesPanel control.
+        /// RiceMealPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel SandwichesPanel;
+        protected global::System.Web.UI.WebControls.Panel RiceMealPanel;
 
         /// <summary>
-        /// RepeaterSandwiches control.
+        /// RepeaterRiceMeal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater RepeaterSandwiches;
+        protected global::System.Web.UI.WebControls.Repeater RepeaterRiceMeal;
     }
 }
