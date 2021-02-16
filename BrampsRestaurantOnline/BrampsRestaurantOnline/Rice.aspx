@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Breakfast.aspx.cs" Inherits="BrampsRestaurantOnline.Breakfast" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Rice.aspx.cs" Inherits="BrampsRestaurantOnline.Rice" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainBody" runat="server">
-    <asp:Panel ID="BreakfastPanel" CssClass="justify-center padding-left" runat="server">
+    <asp:Panel ID="RicePanel" CssClass="justify-center padding-left" runat="server">
         <div class="row row-cols-4 margin-2 justify-center">
-            <asp:Repeater ID="RepeaterBreakfast" runat="server">
+            <asp:Repeater ID="RepeaterRice" runat="server">
                 <ItemTemplate>
                     <div id="Item<%#:Eval("MenuItemID")%>" class="card col w-20">
                         <img id="Image<%#:Eval("MenuItemID")%>" class="card-img-top justify-center" src='Image/<%#:Eval("MenuItemName")%>.png'/>
