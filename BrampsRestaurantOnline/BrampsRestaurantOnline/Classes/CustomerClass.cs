@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 
 namespace BrampsRestaurantOnline.Classes
 {
@@ -25,7 +22,7 @@ namespace BrampsRestaurantOnline.Classes
                     command.ExecuteNonQuery();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
             }
@@ -34,19 +31,23 @@ namespace BrampsRestaurantOnline.Classes
         public static void DeleteCustomer(int CustomerID)
         {
             SqlConnection SQLconn = SQLConnection.SQLConnect();
-                using (SqlCommand command = new SqlCommand("dbo.DeleteCustomer", SQLconn))
-                {
-                    command.CommandType = CommandType.StoredProcedure;
-                    command.Parameters.Add("@IDCustomerer", SqlDbType.Int).Value = CustomerID;
-                    SQLconn.Open();
-                    command.ExecuteNonQuery();
-                }
-      
+            using (SqlCommand command = new SqlCommand("dbo.DeleteCustomer", SQLconn))
+            {
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add("@IDCustomerer", SqlDbType.Int).Value = CustomerID;
+                SQLconn.Open();
+                command.ExecuteNonQuery();
+            }
+
 
             SQLConnection.CloseSQLConnect(SQLconn);
         }
 
 
 
+    }
+    public class Customer
+    {
+        
     }
 }

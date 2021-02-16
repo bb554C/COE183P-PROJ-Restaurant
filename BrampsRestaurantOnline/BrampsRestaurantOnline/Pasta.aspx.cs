@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+﻿using BrampsRestaurantOnline.Classes;
+using System;
 using System.Data;
-using BrampsRestaurantOnline.Classes;
 
 namespace BrampsRestaurantOnline
 {
