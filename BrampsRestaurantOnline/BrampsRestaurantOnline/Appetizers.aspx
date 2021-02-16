@@ -32,10 +32,9 @@
     </asp:Panel>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Footer" runat="server">
-    <div class="container overflow-hidden">
-        <div class="row gx-5">
-            <div class="container">
-            </div>
+    <link rel="stylesheet" href="CSS/Site.css">
+    <div class="nav justify-center">
+        <div class="container overflow-hidden">
                 <div class="container" role="group" aria-label="Second group">
                     <a class="btn btn-dark" href="Favorites.aspx" role="button">1</a>
                     <a class="btn btn-dark" href="Appetizers.aspx" role="button">2</a>
@@ -53,8 +52,6 @@
                     <a class="btn btn-dark" href="Teriyaki.aspx" role="button">14</a>
                     <a class="btn btn-dark" href="Veggies.aspx" role="button">15</a>
                 </div>
-            <div class="container">
-            </div>
         </div>
     </div>
 </asp:Content>
