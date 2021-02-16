@@ -14,7 +14,7 @@ namespace BrampsRestaurantOnline.Classes
             SqlConnection SQLConn = SQLConnection.SQLConnect();
             try
             {
-                using (SqlCommand command = new SqlCommand("dbo.AddNewOrder", SQLConn))
+                using (SqlCommand command = new SqlCommand("dbo.AddNewCustomer", SQLConn))
                 {
                     command.CommandType = CommandType.StoredProcedure;
                     command.Parameters.Add("@IDCustomer", SqlDbType.Int).Value = CustomerID;
@@ -30,6 +30,20 @@ namespace BrampsRestaurantOnline.Classes
 
             }
             SQLConnection.CloseSQLConnect(SQLConn);
+        }
+        public static void DeleteCustomer(int CustomerID)
+        {
+            SqlConnection SQLconn = SQLConnection.SQLConnect();
+                using (SqlCommand command = new SqlCommand("dbo.DeleteCustomer", SQLconn))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add("@IDCustomerer", SqlDbType.Int).Value = CustomerID;
+                    SQLconn.Open();
+                    command.ExecuteNonQuery();
+                }
+      
+
+            SQLConnection.CloseSQLConnect(SQLconn);
         }
 
 
