@@ -74,5 +74,19 @@ namespace BrampsRestaurantOnline.Classes
             }
             SQLConnection.CloseSQLConnect(SQLconn);
         }
+        public static DataSet GetOrder(int OrderID)
+        {
+            SqlConnection SQLconn = SQLConnection.SQLConnect();
+            DataSet tempItemList = new DataSet();
+            using (SqlCommand command = new SqlCommand("dbo.GetOrder", SQLconn))
+            {
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add("@IDOrder", SqlDbType.Int).Value = OrderID;
+                SQLconn.Open();
+                SqlDataAdapter da = new SqlDataAdapter(command);
+                da.Fill(tempItemList);
+                return tempItemList;
+            }
+        }
     }
 }

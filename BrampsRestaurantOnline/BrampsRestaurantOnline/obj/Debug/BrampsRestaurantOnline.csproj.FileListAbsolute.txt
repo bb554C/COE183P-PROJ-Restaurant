@@ -129,3 +129,4 @@ D:\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaur
 D:\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\bin\EntityFramework.SqlServer.xml
 D:\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.csproj.CopyComplete
+C:\Users\BAIRD\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.csprojAssemblyReference.cache

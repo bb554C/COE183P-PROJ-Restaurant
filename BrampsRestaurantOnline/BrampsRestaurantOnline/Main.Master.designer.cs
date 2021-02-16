@@ -42,12 +42,12 @@ namespace BrampsRestaurantOnline
         protected global::System.Web.UI.WebControls.ContentPlaceHolder MainBody;
 
         /// <summary>
-        /// SideBar control.
+        /// Footer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder SideBar;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder Footer;
     }
 }
