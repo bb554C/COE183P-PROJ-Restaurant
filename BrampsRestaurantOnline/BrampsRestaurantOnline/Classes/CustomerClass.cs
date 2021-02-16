@@ -49,4 +49,8 @@ namespace BrampsRestaurantOnline.Classes
 
 
     }
+    public class Customer
+    {
+        
+    }
 }
