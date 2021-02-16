@@ -128,6 +128,7 @@
     <Content Include="Veggies.aspx" />
     <Content Include="Web.config" />
     <Content Include="PansitNoodles.aspx" />
+    <Content Include="ShoppingCart.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -271,6 +272,13 @@
     </Compile>
     <Compile Include="PansitNoodles.aspx.designer.cs">
       <DependentUpon>PansitNoodles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
