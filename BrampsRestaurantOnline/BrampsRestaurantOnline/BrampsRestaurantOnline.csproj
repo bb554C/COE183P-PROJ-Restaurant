@@ -158,10 +158,11 @@
     <Compile Include="Breakfast.aspx.designer.cs">
       <DependentUpon>Breakfast.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Classes\ItemList.cs" />
+    <Compile Include="Classes\OrderList.cs" />
     <Compile Include="Classes\CustomerClass.cs" />
     <Compile Include="Classes\FoodClass.cs" />
     <Compile Include="Classes\ItemClass.cs" />
+    <Compile Include="Classes\OrderTable.cs" />
     <Compile Include="Classes\SQLConnection.cs" />
     <Compile Include="Congee.aspx.cs">
       <DependentUpon>Congee.aspx</DependentUpon>
