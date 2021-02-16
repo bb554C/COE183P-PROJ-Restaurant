@@ -17,7 +17,7 @@ namespace BrampsRestaurantOnline
         }
         private void LoadPage()
         {
-            DataSet tempIL = FoodClass.GetOrder(1);
+            DataTable tempIL = OrderTable.DT;
             RepeaterOrder.DataSource = tempIL;
             RepeaterOrder.DataBind();
         }

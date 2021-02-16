@@ -10,26 +10,31 @@
       Item Name
     </div>
     <div class="col-sm">
-      Price
+        Quantity
     </div>
     <div class="col-sm">
-      Item Description
+      Price
     </div>
   </div>
     <asp:Repeater ID="RepeaterOrder" runat="server">
         <ItemTemplate>
-              <div id="Item<%#:Eval("OrderID")%>" class="card col w-20">
+                <asp:HiddenField ID="RowId" runat="server" Value='<%#:Eval("Item ID") %>' />
+              <div id="Item<%#:Eval("Item ID") %>" class="card col w-20">
                    <div class="row">
-    <div class="col-sm">
-     <h6 class="card-title"><%#:Eval("CustomerName") %></h6>
-    </div>
-    <div class="col-sm">
-     <p class="card-text text-autosize">Price: <%#:Eval("MenuItemPrice") %></p>
-    </div>
-    <div class="col-sm">
-       <p class="card-text text-autosize"><%#:Eval("MenuItemDescription")%></p>
-    </div>
-  </div>                                        
+                <div class="col-sm">
+                 <h6 class="card-title"><%#:Eval("Item Name") %></h6>
+                </div>
+                <div class="col-sm">
+                 <p class="card-text text-autosize">Price: <%#:Eval("Item Quantity") %></p>
+                </div>
+                <div class="col-sm">
+                   <p class="card-text text-autosize"><%#:Eval("Item Price")%></p>
+                </div>
+                       <div class="col-sm">
+                      <asp:Button ID="ButtonX" runat="server" Text="X" CssClass="btn btn-danger x-mark" />
+                  </div>
+              </div>
+                  
                   </div>
         </ItemTemplate>
         </asp:Repeater>

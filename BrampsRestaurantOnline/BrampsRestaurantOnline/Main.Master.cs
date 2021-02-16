@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BrampsRestaurantOnline.Classes;
+using System;
 using System.Web;
 
 namespace BrampsRestaurantOnline
@@ -7,7 +8,7 @@ namespace BrampsRestaurantOnline
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            OrderTable.initData();
             HttpCookie userInfo = new HttpCookie("userInfo");
             userInfo["UserName"] = "Annathurai";
             userInfo["UserColor"] = "Black";
