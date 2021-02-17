@@ -7,15 +7,18 @@
      <br />
            <div class="container border border-dark" >
           <div class="fs-1">Order Summary</div>    
-  <div class="row">
-    <div class="col-sm">
+  <div class="row fw-bold">
+    <div class="card col w-15">
       Item Name
     </div>
-    <div class="col-sm">
+    <div class="card col w-15">
         Quantity
     </div>
-    <div class="col-sm">
+    <div class="card col w-15">
       Price
+    </div>
+        <div class="card col w-15">
+      Remove
     </div>
   </div>
     <asp:Repeater ID="RepeaterOrder" runat="server">
@@ -33,14 +36,14 @@
                    <p class="card-text text-autosize">₱ <%#:Eval("Item Price")%></p>
                 </div>
                        <div class="col-sm">
-                      <asp:Button ID="ButtonX" runat="server" Text="X" CssClass="btn btn-danger x-mark" />
+                      <asp:Button ID="ButtonX" runat="server" Text="X" CssClass="btn btn-danger x-mark " />
                   </div>
               </div>
           
                   </div>
         </ItemTemplate>
         </asp:Repeater>
-    <div class="justify-right w-50">
+    <div class="justify-right w-50 card">
         <p class="fs-5">Delivery Fee:</p>
         <p class="fs-5">Grand Total: </p>
     </div>
