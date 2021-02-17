@@ -11,7 +11,7 @@
                         <asp:HiddenField runat="server" ID="ItemID" Value='<%# Eval("MenuItemID") %>' />
                         <asp:HiddenField runat="server" ID="ItemPrice" Value='<%# Eval("MenuItemPrice") %>' />
                         <asp:HiddenField runat="server" ID="ItemQty" Value="0" ClientIDMode="Static" />
-                        <img id="Image<%#:Eval("MenuItemID")%>" class="card-img-top justify-center" src='Image/<%#:Eval("MenuItemName")%>.png'/>
+                        <img id="Image<%#:Eval("MenuItemID")%>" class="card-img-top justify-center" height="400" src='Image/<%#:Eval("MenuItemName")%>.png'/>
                         <h5 class="card-title"><%#:Eval("MenuItemName") %></h5>
                         <p class="card-text text-autosize">Price: <%#:Eval("MenuItemPrice") %></p>
                         <p class="card-text text-autosize"><%#:Eval("MenuItemDescription")%></p>

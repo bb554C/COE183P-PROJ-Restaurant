@@ -56,12 +56,19 @@
                     </ul>
                     <ul class="navbar-nav align-middle ">
                         <li class="nav-item align-middle">
-                            <a class="nav-link active" href="ShoppingCart.aspx">SHOPPING CART</a>
+                            <a class="nav-link active" href="Faqs.aspx">FAQs</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav align-middle ">
                         <li class="nav-item align-middle">
                             <a class="nav-link active" href="About.aspx">ABOUT</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav justify-right ">
+                        <li class="nav-item align-middle">
+                            <a class="nav-link active" href="ShoppingCart.aspx">SHOPPING CART
+                                <img src="Image/Cart.png" alt="Cart" height="25" class="d-inline-block align-middle justify-center">
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -81,28 +88,41 @@
         </div>
         <hr />
         <footer>
-            <p>&copy; <%: DateTime.Now.Year %></p>
-            <p>
-                Lead Programmer: Buenaventura, Baird Rouan S.
-                <br />
-                Lead Back-End Programmer (SQL): Baguisi, Jonathan M.
-                <br />
-                Other Programmers:
-                <br />
-                Sanchez, Rhys B.
-                <br />
-                Caabay, Alexis Paul
-                <br />
-                Cayanan, Kyle
-            </p>
-            <p>   All icons used are under a Free-License Agreement via <a href="icons8.com">www.icons8.com</a></p>
-            <ul>
-                <li><a href="https://icons8.com/icon/115757/expand-arrow">Expand Arrow icon by Icons8</a></li>
-                <li><a href="https://icons8.com/icon/115746/collapse-arrow">Collapse Arrow icon by Icons8</a></li>
-                <li><a href="https://icons8.com/icon/CqEMtbv6-5US/no-image">No Image icon by Icons8</a></li>
-                <li><a href="https://icons8.com/icon/N4c5qfzBSu-s/buying">Buying icon by Icons8</a></li>
-                <li><a href="https://icons8.com/icon/67386/close-window">Close Window icon by Icons8</a></li>
-            </ul>
+            <div class="row justify-content-center text-muted">
+                <div class="col-3 text-muted" style="line-height:16px">
+                    
+                </div>
+                <div class="col-3 text-muted" style="line-height:16px">
+                    <p><img src="Image/Bramps Logo Transparent.png" alt="Bramps Logo" height="40" class="d-inline-block align-middle">
+                    &copy;BRAMPS RESTAURANT <%: DateTime.Now.Year %>
+                    <br />
+                        Lead Programmer: Buenaventura, Baird Rouan S.
+                        <br />
+                        Lead Back-End Programmer (SQL): Baguisi, Jonathan M.
+                        <br />
+                        Other Programmers:
+                        <br />
+                        Sanchez, Rhys B.
+                        <br />
+                        Caabay, Alexis Paul
+                        <br />
+                        Cayanan, Kyle
+                    </p>
+                </div>
+                <div class="col-3 text-muted" style="line-height:16px">
+                    <p> <br />  All icons used are under a Free-License Agreement via <a href="icons8.com">www.icons8.com</a></p>
+                    <ul>
+                        <li><a href="https://icons8.com/icon/115757/expand-arrow">Expand Arrow icon by Icons8</a></li>
+                        <li><a href="https://icons8.com/icon/115746/collapse-arrow">Collapse Arrow icon by Icons8</a></li>
+                        <li><a href="https://icons8.com/icon/CqEMtbv6-5US/no-image">No Image icon by Icons8</a></li>
+                        <li><a href="https://icons8.com/icon/N4c5qfzBSu-s/buying">Buying icon by Icons8</a></li>
+                        <li><a href="https://icons8.com/icon/67386/close-window">Close Window icon by Icons8</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 text-muted" style="line-height:16px">
+                    
+                </div>
+            </div>
         </footer>
     </form>
 </body>

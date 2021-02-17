@@ -80,6 +80,7 @@
     <Content Include="Congee.aspx" />
     <Content Include="CSS\Site.css" />
     <Content Include="Dessert.aspx" />
+    <Content Include="Faqs.aspx" />
     <Content Include="Favorites.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Grilled.aspx" />
@@ -266,6 +267,13 @@
     </Compile>
     <Compile Include="Dessert.aspx.designer.cs">
       <DependentUpon>Dessert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Faqs.aspx.cs">
+      <DependentUpon>Faqs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Faqs.aspx.designer.cs">
+      <DependentUpon>Faqs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Favorites.aspx.cs">
       <DependentUpon>Favorites.aspx</DependentUpon>
