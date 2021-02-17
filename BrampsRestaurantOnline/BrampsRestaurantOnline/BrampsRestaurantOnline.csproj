@@ -141,7 +141,9 @@
     <Content Include="Image\Fried Chicken Rice.png" />
     <Content Include="Image\FrontImage1.jpg" />
     <Content Include="Image\Fruit Salad.png" />
+    <Content Include="Image\f_logo_RGB-Blue_1024.png" />
     <Content Include="Image\Garlic Rice.png" />
+    <Content Include="Image\gmail--v1.png" />
     <Content Include="Image\Goto Complete.png" />
     <Content Include="Image\Halo-Halo %281 Scoop Ice Cream%29.png" />
     <Content Include="Image\Halo-Halo %28Regular%29.png" />
@@ -165,6 +167,7 @@
     <Content Include="Image\Mais Con Yelo.png" />
     <Content Include="Image\Mango Juice.png" />
     <Content Include="Image\Mango Shake Poppers.png" />
+    <Content Include="Image\marker--v1.png" />
     <Content Include="Image\Meaty Carbonara.png" />
     <Content Include="Image\MUG Rootbeer.png" />
     <Content Include="Image\no-image.png" />

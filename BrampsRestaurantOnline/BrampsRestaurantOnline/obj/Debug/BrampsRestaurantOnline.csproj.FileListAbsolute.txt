@@ -129,7 +129,6 @@ D:\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaur
 D:\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\bin\EntityFramework.SqlServer.xml
 D:\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.csproj.CopyComplete
-C:\Users\BAIRD\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.csprojAssemblyReference.cache
 D:\Documents\GitHub\COE183P\BrampsRestaurantOnline\BrampsRestaurantOnline\bin\BrampsRestaurantOnline.dll.config
 D:\Documents\GitHub\COE183P\BrampsRestaurantOnline\BrampsRestaurantOnline\bin\BrampsRestaurantOnline.dll
 D:\Documents\GitHub\COE183P\BrampsRestaurantOnline\BrampsRestaurantOnline\bin\BrampsRestaurantOnline.pdb
@@ -174,3 +173,4 @@ D:\Documents\GitHub\COE183P\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\De
 D:\Documents\GitHub\COE183P\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.csproj.CopyComplete
 D:\Documents\GitHub\COE183P\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.dll
 D:\Documents\GitHub\COE183P\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.pdb
+C:\Users\BAIRD\Documents\GitHub\COE183P-PROJ-Restaurant\BrampsRestaurantOnline\BrampsRestaurantOnline\obj\Debug\BrampsRestaurantOnline.csprojAssemblyReference.cache
