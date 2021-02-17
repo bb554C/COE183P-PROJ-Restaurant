@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Teriyaki.aspx.cs" Inherits="BrampsRestaurantOnline.Teriyaki" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Teriyaki.aspx.cs" Inherits="BrampsRestaurantOnline.Teriyaki" EnableEventValidation="False" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainBody" runat="server">

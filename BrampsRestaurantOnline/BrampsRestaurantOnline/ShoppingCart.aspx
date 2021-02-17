@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="ShoppingCart.aspx.cs" Inherits="BrampsRestaurantOnline.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="ShoppingCart.aspx.cs" Inherits="BrampsRestaurantOnline.WebForm1" EnableEventValidation="False" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainBody" runat="server">
@@ -36,7 +36,7 @@
                    <p class="card-text text-autosize">₱ <%#:Eval("Item Price")%></p>
                 </div>
                        <div class="col-sm">
-                      <asp:Button ID="ButtonX" runat="server" Text="X" CssClass="btn btn-danger x-mark " />
+                      <asp:Button ID="ButtonX" runat="server" Text="X" CssClass="btn btn-danger x-mark " onclick="ButtonX_Click"/>
                   </div>
               </div>
           
@@ -44,13 +44,11 @@
         </ItemTemplate>
         </asp:Repeater>
     <div class="justify-right w-50 card">
-        <p class="fs-5">Delivery Fee:</p>
-        <p class="fs-5">Grand Total: </p>
+        <asp:Label ID="LabelTotal" runat="server" Text="Grand Total:" CssClass="fs-5"></asp:Label>
     </div>
-</div>      
+</div>
+     
      </asp:Panel>
-       
-
     <asp:Panel ID="CustomerDetails" CssClass="w-50 justify-center" runat="server">  
         <br />
         <br />
@@ -60,21 +58,20 @@
     <div class="mb-3" >
          
   <label for="Contact number" class="form-label">Phone number</label>
-  <input type="tel" class="form-control" id="formControl1" placeholder="09203331111" required>
+        <asp:TextBox ID="TextBoxNumber" runat="server" CssClass="form-control" placeholder="09XX XXX XXXX"></asp:TextBox>
         </div>
      <div class="mb-3">
   <label for="Name" class="form-label">Last Name, First Name</label>
-  <input type="text" class="form-control" id="formControl2" placeholder="Dela Cruz, Juan" required>
+         <asp:TextBox ID="TextBoxName" runat="server" placeholder="Dela Cruz, Juan" CssClass="form-control"></asp:TextBox>
     </div>
                 <div class="mb-3">
   <label for="Address" class="form-label">Full Address</label>
-  <input type="text" class="form-control" id="formControl3" placeholder="Unit number, house number, building, street name, barangay" required>
+                    <asp:TextBox ID="TextBoxAddress" runat="server" placeholder='Unit number, house number, building, street name, barangay' CssClass="form-control"></asp:TextBox>
     </div>
       <div class =" d-grid gap-2 col-6 mx-auto">
-            <button type="button" class="btn btn-success btn-lg" id="btnCheckout">Confirm Checkout</button>
+          <asp:Button ID="ButtonCheckout" runat="server" Text="Confirm Checkout" CssClass="btn btn-success btn-lg" />
         </div>  
-    </asp:Panel>
-
+    </asp:Panel> 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Footer" runat="server">
 </asp:Content>

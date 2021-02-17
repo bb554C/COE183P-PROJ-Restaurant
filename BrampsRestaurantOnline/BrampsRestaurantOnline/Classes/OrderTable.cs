@@ -30,5 +30,40 @@ namespace BrampsRestaurantOnline.Classes
         {
             DT.Rows.Add(DT.Rows.Count+1, itemName, itemQty, itemPrice);
         }
+        public static void deleteData(int itemId)
+        {
+            for(int i = 0; i < DT.Rows.Count; i++)
+            {
+                if(itemId == Convert.ToInt32(DT.Rows[i][0]))
+                {
+                    DT.Rows.RemoveAt(i);
+                }
+            }
+        }
+        public static decimal getTotal()
+        {
+            decimal sum = 0;
+            for (int i = 0; i < DT.Rows.Count; i++)
+            {
+                decimal x = Convert.ToInt32(DT.Rows[i][2]) * Convert.ToDecimal(DT.Rows[i][3]);
+                sum = sum + x;
+            }
+            return sum;
+        }
+
+        public static string getOrderString()
+        {
+            string getFinalString = "";
+            if(DT.Rows.Count >= 0)
+            {
+                for (int i = 0; i < DT.Rows.Count; i++)
+                {
+                    getFinalString = Convert.ToString(DT.Rows[i][1]) + " - " +
+                        Convert.ToString(DT.Rows[i][2]) + " - " +
+                        Convert.ToString(DT.Rows[i][3]) + "\n";
+                }
+            }
+            return getFinalString;
+        }
     }
 }
