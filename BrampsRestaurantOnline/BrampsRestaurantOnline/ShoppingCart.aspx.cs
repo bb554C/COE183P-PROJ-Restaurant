@@ -24,10 +24,7 @@ namespace BrampsRestaurantOnline
             RepeaterOrder.DataBind();
             LabelTotal.Text = "Grand Total: ₱ " + OrderTable.getTotal();
         }
-        protected void btnCheckout_Click(object sender, EventArgs e)
-        {
-            CustomerClass.AddNewCustomer(1, "aaa", "aa","sa" );
-        }
+
 
         protected void ButtonX_Click(object sender, EventArgs e)
         {
@@ -37,15 +34,16 @@ namespace BrampsRestaurantOnline
             LoadPage();
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+
+        protected void ButtonCheckout_Click1(object sender, EventArgs e)
         {
-            if(OrderTable.getOrderString() != "" && TextBoxAddress.Text != "" && TextBoxName.Text != "" && TextBoxNumber.Text != "")
+            if (OrderTable.getOrderString() != "" && TextBoxAddress.Text != "" && TextBoxName.Text != "" && TextBoxNumber.Text != "")
             {
                 //call stored proc here saveToSQL(OrderTable.getOrderString,TextBoxAddress.Text,TextboxName.Text,TextboxNumber.Text)
+                CustomerClass.AddNewCustomerOrder(OrderTable.getOrderString(), TextBoxAddress.Text, TextBoxName.Text, TextBoxNumber.Text);
                 OrderTable.DT.Clear();
                 LoadPage();
             }
-            
         }
     }
 }
