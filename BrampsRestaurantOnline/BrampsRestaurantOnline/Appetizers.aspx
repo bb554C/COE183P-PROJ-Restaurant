@@ -6,7 +6,8 @@
         <div class="row row-cols-4 margin-2 justify-center">
             <asp:Repeater ID="RepeaterAppetizers" runat="server">
                 <ItemTemplate>
-                    <div id="Item<%#:Eval("MenuItemID")%>" class="card col w-20">
+                    <div id="Item<%#:Eval("MenuItemID")%>" class="card col w-20 yellowitems">
+                        <div class="itemsheight">
                         <asp:HiddenField runat="server" ID="ItemName" Value='<%# Eval("MenuItemName") %>' />
                         <asp:HiddenField runat="server" ID="ItemID" Value='<%# Eval("MenuItemID") %>' />
                         <asp:HiddenField runat="server" ID="ItemPrice" Value='<%# Eval("MenuItemPrice") %>' />
@@ -15,8 +16,11 @@
                         <h5 class="card-title"><%#:Eval("MenuItemName") %></h5>
                         <p class="card-text text-autosize">Price: <%#:Eval("MenuItemPrice") %></p>
                         <p class="card-text text-autosize"><%#:Eval("MenuItemDescription")%></p>
+                        </div>
+                        <div class="btnheight text-box-center justify-center">
                         <asp:TextBox ID="TextBox" runat="server" CssClass="text-box-center justify-center" Text="0" />
                         <asp:Button ID="Button" runat="server" Text="Add to Cart" CssClass="btn btn-warning button-add-cart justify-center w-50" OnClick="Button_Click"/>
+                        </div>
                     </div>
                 </ItemTemplate>
         </asp:Repeater>

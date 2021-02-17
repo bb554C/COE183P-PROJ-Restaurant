@@ -20,6 +20,22 @@
       <img src="Image/InsideStore.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
+  <script>
+        var indexValue = 0;
+        function slideShow() {
+            setTimeout(slideShow, 2500);
+            var x;
+            const img = document.querySelectorAll("img");
+            for (x = 0; x < img.length; x++)
+            {
+                img[x].style.display = "none";
+            }
+            indexValue++;
+            if (indexValue > img.length) { indexValue = 1 }
+            img[indexValue - 1].style.display = "block";
+        }
+        slideShow();
+  </script>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>

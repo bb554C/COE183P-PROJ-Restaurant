@@ -2,13 +2,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainBody" runat="server">
+    <div class="aboutheight"></div>
     <div>
         <h5 class="justify-center w-75 text-box-center">BRAMPS RESTAURANT</h5>
         <p class="justify-center w-75 text-box-center">
            BRAMPS Restaurant is a family run restaurant that caters to low and medium income families.
             We have wide variety and very affordable food.
             <br />
-            <br />
+            <br /> 
             <br />
             
         </p>
@@ -26,4 +27,5 @@
             <img  src="Image/marker--v1.png" class="pic-75" height="75">
         </a>
     </div>
+    <div class="aboutheight"></div>
 </asp:Content>

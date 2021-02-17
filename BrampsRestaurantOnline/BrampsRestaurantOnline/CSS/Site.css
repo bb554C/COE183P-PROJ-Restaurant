@@ -16,6 +16,98 @@
     width: 10%;
 }
 
+.dropbtn {
+    background-color: #212529;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.faqsettings {
+    height: 600px;
+    border: dashed;
+}
+
+.aboutheight {
+    height: 200px;
+}
+
+.itemsheight {
+    height: 550px;
+}
+
+.greenitems {
+    background-color: #85bf6d;
+}
+
+.reditems {
+    background-color: #bf706d;
+}
+
+.yellowitems {
+    background-color: #e6d583;
+}
+
+.limeitems {
+    background-color: #c8f02b;
+}
+
+.orangeitems {
+    background-color: #e6b383;
+}
+
+.purpleitems {
+    background-color: #9d83e6;
+}
+
+.brownitems {
+    background-color: #b0845a;
+}
+
+.btnheight {
+    height: 100px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+       
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #212529;
+} 
+
 .text-box-center {
     text-align: center;
     width: 100%;

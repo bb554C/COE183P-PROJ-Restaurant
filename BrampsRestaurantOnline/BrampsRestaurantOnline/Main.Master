@@ -34,29 +34,31 @@
                 <div class="collapse navbar-collapse" id="navbarNav"">
                     <ul class="navbar-nav align-middle ">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SHOP</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="Favorites.aspx">Favorites</a></li>
-                                    <li><a class="dropdown-item" href="Appetizers.aspx">Appetizers</a></li>
-                                    <li><a class="dropdown-item" href="Beverages.aspx">Beverages</a></li>
-                                    <li><a class="dropdown-item" href="Breakfast.aspx">Breakfast</a></li>
-                                    <li><a class="dropdown-item" href="Congee.aspx">Congee</a></li>
-                                    <li><a class="dropdown-item" href="Dessert.aspx">Dessert</a></li>
-                                    <li><a class="dropdown-item" href="Grilled.aspx">Grilled</a></li>
-                                    <li><a class="dropdown-item" href="PansitNoodles.aspx">Pansit Noodles</a></li>
-                                    <li><a class="dropdown-item" href="Pasta.aspx">Pasta</a></li>
-                                    <li><a class="dropdown-item" href="Rice.aspx">Rice</a></li>
-                                    <li><a class="dropdown-item" href="RiceMeal.aspx">Rice Meal</a></li>
-                                    <li><a class="dropdown-item" href="Sandwiches.aspx">Sandwiches</a></li>
-                                    <li><a class="dropdown-item" href="Sizzling.aspx">Sizzling</a></li>
-                                    <li><a class="dropdown-item" href="Teriyaki.aspx">Teriyaki</a></li>
-                                    <li><a class="dropdown-item" href="Veggies.aspx">Veggies</a></li>
-                                </ul>
+                                <div class="dropdown">
+                                  <button class="dropbtn">SHOP</button>
+                                  <div class="dropdown-content">
+                                    <a class="dropdown-item" href="Favorites.aspx">Favorites</a>
+                                    <a class="dropdown-item" href="Appetizers.aspx">Appetizers</a>
+                                    <a class="dropdown-item" href="Beverages.aspx">Beverages</a>
+                                    <a class="dropdown-item" href="Breakfast.aspx">Breakfast</a>
+                                    <a class="dropdown-item" href="Congee.aspx">Congee</a>
+                                    <a class="dropdown-item" href="Dessert.aspx">Dessert</a>
+                                    <a class="dropdown-item" href="Grilled.aspx">Grilled</a>
+                                    <a class="dropdown-item" href="PansitNoodles.aspx">Pansit Noodles</a>
+                                    <a class="dropdown-item" href="Pasta.aspx">Pasta</a>
+                                    <a class="dropdown-item" href="Rice.aspx">Rice</a>
+                                    <a class="dropdown-item" href="RiceMeal.aspx">Rice Meal</a>
+                                    <a class="dropdown-item" href="Sandwiches.aspx">Sandwiches</a>
+                                    <a class="dropdown-item" href="Sizzling.aspx">Sizzling</a>
+                                    <a class="dropdown-item" href="Teriyaki.aspx">Teriyaki</a>
+                                    <a class="dropdown-item" href="Veggies.aspx">Veggies</a>
+                                  </div>
+                                </div> 
                         </li>
                     </ul>
                     <ul class="navbar-nav align-middle ">
                         <li class="nav-item align-middle">
-                            <a class="nav-link active" href="Faqs.aspx">FAQs</a>
+                            <a class="nav-link active drop" href="Faqs.aspx">FAQs</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav align-middle ">
@@ -96,17 +98,11 @@
                     <p><img src="Image/Bramps Logo Transparent.png" alt="Bramps Logo" height="40" class="d-inline-block align-middle">
                     &copy;BRAMPS RESTAURANT <%: DateTime.Now.Year %>
                     <br />
-                        Lead Programmer: Buenaventura, Baird Rouan S.
-                        <br />
-                        Lead Back-End Programmer (SQL): Baguisi, Jonathan M.
-                        <br />
-                        Other Programmers:
-                        <br />
-                        Sanchez, Rhys B.
-                        <br />
-                        Caabay, Alexis Paul
-                        <br />
-                        Cayanan, Kyle
+                        Baguisi, Jonathan M. - Lead Back-End Programmer<br />
+                        Buenaventura, Baird Rouan S. - Lead Programmer<br />
+                        Caabay, Alexis Paul - Programmer<br />
+                        Cayanan, Kyle - Programmer<br />
+                        Sanchez, Rhys B. - Programmer<br />
                     </p>
                 </div>
                 <div class="col-3 text-muted" style="line-height:16px">
