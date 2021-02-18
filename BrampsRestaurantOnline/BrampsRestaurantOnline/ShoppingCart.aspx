@@ -69,7 +69,7 @@
                     <asp:TextBox ID="TextBoxAddress" runat="server" placeholder='Unit number, house number, building, street name, barangay' CssClass="form-control"></asp:TextBox>
     </div>
       <div class =" d-grid gap-2 col-6 mx-auto">
-          <asp:Button ID="ButtonCheckout" runat="server" Text="Confirm Checkout" CssClass="btn btn-success btn-lg" />
+          <asp:Button ID="ButtonCheckout" runat="server" Text="Confirm Checkout" CssClass="btn btn-success btn-lg" OnClick="ButtonCheckout_Click1" />
         </div>  
     </asp:Panel> 
 </asp:Content>
