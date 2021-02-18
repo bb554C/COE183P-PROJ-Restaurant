@@ -18,7 +18,7 @@
                         <p class="card-text text-autosize"><%#:Eval("MenuItemDescription")%></p>
                         </div>
                         <div class="btnheight text-box-center justify-center">
-                        <asp:TextBox ID="TextBox" runat="server" CssClass="text-box-center justify-center" Text="0" />
+                        <asp:TextBox ID="TextBox" runat="server" CssClass="text-box-center justify-center" Text="0" TextMode="Number" min="0" max="99" step="1"/>
                         <asp:Button ID="Button" runat="server" Text="Add to Cart" CssClass="btn btn-warning button-add-cart justify-center w-50" OnClick="Button_Click"/>
                         </div>
                     </div>
